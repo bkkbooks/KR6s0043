@@ -1,0 +1,42 @@
+canonical_identifier: bkk:krp/KR6s0043/v1
+canonical_location: https://kanripo.org/bkk/KR6s0043/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+metadata:
+  title: 和菩薩戒文
+  identifiers:
+    alt_id:
+    - T85n2851
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/T/T85/T85n2851.xml
+    old_id: T85n2851
+  edition:
+    short: bkk
+editions:
+- short: 大
+  label: 大
+  source_xml_id: wit.orig
+- short: T
+assets:
+  parts:
+  - {seq: 0, filename: KR6s0043_000.yaml, hash: 'sha256:3724434bcbe2005230612876d981552a5492fa7b1898997e6a9f79e67efebf04'}
+  - {seq: 1, filename: KR6s0043_001.yaml, hash: 'sha256:25b6a46d38190b8bf8cad14eea2362aee844eee76701f86d8b2d6ea611d0b9ab'}
+  markers:
+  - {seq: 1, role: markers, filename: assets/KR6s0043_001.markers.yaml, hash: 'sha256:416489457cb45a1785cfa5cdadb0552455c632bb9a897d6e00ee07c8a1bebe7c'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: KR6s0043_T_001-juan-start
+    span:
+    - body
+    - 0
+    - 775
+  label: 和菩薩戒文一本
+  type: juan
+  level: 1
+hash: sha256:44e04cf7519e65c6c32b19497ac9a879abf72e83f6bf71c3cc1d110277b9aa86
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e

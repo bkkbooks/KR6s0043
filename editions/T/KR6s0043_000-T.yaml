@@ -1,0 +1,17 @@
+canonical_identifier: bkk:krp/KR6s0043/t/v1/juan/0
+seq: 0
+front:
+  text: ''
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+body:
+  text: ''
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 和菩薩戒文
+  edition:
+    short: t
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/T/T85/T85n2851.xml
+    old_id: T85n2851
+hash: sha256:3724434bcbe2005230612876d981552a5492fa7b1898997e6a9f79e67efebf04
