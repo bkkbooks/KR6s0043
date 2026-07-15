@@ -2,7 +2,7 @@ canonical_identifier: bkk:krp/KR6s0043/v1
 canonical_location: https://kanripo.org/bkk/KR6s0043/v1
 canonical_set:
   identifier: bkk:charset/cjk-v1
-  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+  hash: sha256:37995e65f5e6cdc8cfbc980fea50ec86663e3e7de950809f7e37f003754b3227
 metadata:
   title: 和菩薩戒文
   identifiers:
@@ -22,10 +22,10 @@ editions:
 assets:
   parts:
   - {seq: 0, filename: KR6s0043_000.yaml, hash: 'sha256:3724434bcbe2005230612876d981552a5492fa7b1898997e6a9f79e67efebf04'}
-  - {seq: 1, filename: KR6s0043_001.yaml, hash: 'sha256:5b6d5104db8080f62a39fe3fbb499bf3c929639c10e55a2fc769a1872ff31a20'}
+  - {seq: 1, filename: KR6s0043_001.yaml, hash: 'sha256:a962564ad1fdb8b682ad3bb223863313cc3697d348d98ce241fa460f6643d916'}
   markers:
   - {seq: 0, role: markers, filename: assets/KR6s0043_000.markers.yaml, hash: 'sha256:1850cd8bca9c2e103e281bcad7861ef4840ee257e4d368e24b71a2c0f70db9c0'}
-  - {seq: 1, role: markers, filename: assets/KR6s0043_001.markers.yaml, hash: 'sha256:a34d8b7e53db8e0c54133174d976f534cb9c39bbe9f26724114ef1159f5e3323'}
+  - {seq: 1, role: markers, filename: assets/KR6s0043_001.markers.yaml, hash: 'sha256:7faf6b97138b81932c7a10c23bcd9578bf6d90ebfcd1e2059180ffa6254aac67'}
 table_of_contents:
 - ref:
     seq: 1
@@ -37,4 +37,7 @@ table_of_contents:
   label: 和菩薩戒文一本
   type: juan
   level: 1
-hash: sha256:05ff2ef2905fb04dd2f0021b981128177d176d1b9b1225a674e8757790fcab22
+hash: sha256:a2f3dc64e657bc1ae71a85685a9075327c3ae1ad7ba33e9eded6f1db80aff233
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:9bc9a4233a10ab6fe6494b31262c157187fd580f02a97cad91be81ccd48f7a20
